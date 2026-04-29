@@ -14,7 +14,6 @@ I research the security of agentic AI systems and LLM-based applications. I buil
 - 🇫🇷 **WorldSkills 2024 France Cybersecurity Champion**
 - 🌍 **WorldSkills International : World Top 10**
 - Reserve cyber officer @ Gendarmerie Nationale
-- Founder @MERIIVE : offensive-security tooling
 
 ### Selected publications & talks
 
