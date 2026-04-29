@@ -1,9 +1,7 @@
 # Romain Deperne
 
 **Offensive Security Researcher  ·  LLM Agent Security**
-**Vulnerability Manager @ Airbus Helicopters**
-
-OSCP  ·  OSWA  ·  OSEP / OSED in progress
+OSCP  ·  OSWA  
 
 ---
 
