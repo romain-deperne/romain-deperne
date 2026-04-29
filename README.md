@@ -9,10 +9,6 @@ OSCP  ·  OSWA
 
 I research the security of agentic AI systems and LLM-based applications. I built a private LLM-agent platform (tool-use architecture) that has uncovered **455+ vulnerabilities** across the AI / LLM ecosystem : covering the official MCP SDKs (Python, TypeScript, Rust), LangChain, LlamaIndex, mem0, RAGFlow, smolagents, LiteLLM, MetaGPT with **20+ CVE IDs assigned** (5 NVD-published) and multiple high-CVSS RCE chains.
 
-By day, I run the vulnerability management program at Airbus Helicopters within a defense-grade compliance scope (SOC-2, FedRAMP, DoD IL4) and act as red / purple team focal point.
-
-All findings are reported through coordinated disclosure (GHSA, MITRE, huntr).
-
 ### Recognition
 
 - 🇫🇷 **WorldSkills 2024 France Cybersecurity Champion**
