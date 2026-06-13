@@ -1,18 +1,30 @@
 # Romain Deperne
 
-**Offensive Security Researcher  ·  LLM & Agentic-AI Security**
+**Offensive Security · AppSec & Source-Code Review · AI-driven offensive tooling**
 OSCP  ·  OSWA
 
 ---
 
 ### What I do
 
-I research the security of agentic AI systems and LLM-based applications. I built a private
-LLM-agent platform (tool-use architecture) that has uncovered **455+ vulnerabilities** across the
-AI / LLM ecosystem — covering the official **MCP SDKs** (Python, TypeScript, Rust), LangChain,
-LlamaIndex, mem0, RAGFlow, smolagents, LiteLLM and MetaGPT — with **40+ CVE IDs assigned** and
-multiple high-CVSS RCE chains. Every finding ships with a standalone, reproduced PoC and a
-coordinated-disclosure timeline.
+Penetration testing and **application-security source-code review**, scaled with an
+**AI-driven offensive harness** I built and operate. The harness is an LLM-agent system that reads
+source, hypothesizes vulnerabilities, **writes and runs PoCs to confirm them**, kills false positives,
+and files coordinated-disclosure reports — human-in-the-loop on every aggressive action. I steer it,
+validate its output against professional standards, and benchmark where automation beats (or misses)
+a human pentester.
+
+It has driven **300+ projects audited**, **200+ reports filed**, and **40+ CVE IDs assigned** across
+the AI/LLM ecosystem — the official **MCP SDKs** (Python, TypeScript, Rust), LangChain, LlamaIndex,
+mem0, RAGFlow, KubeAI, Dagster, JupyterHub and more — with multiple high-CVSS RCE chains. Findings
+span **Python, Go, TypeScript/JS, C# and C/C++**. Every report ships with a standalone, reproduced PoC.
+
+### 🛠 Flagship — how I work at scale
+
+**[`vulnhunter-harness`](https://github.com/romain-deperne/vulnhunter-harness)** — architecture &
+methodology of the AI-driven offensive-security harness: agent orchestration, non-bypassable scope
+hooks, the find → prove → disclose loop, and the human-vs-automation benchmarking that makes it
+trustworthy on real engagements.
 
 ### Featured CVEs — published & reproduced
 
@@ -52,4 +64,4 @@ Each link is a public repo with the full write-up, root-cause analysis and a wor
 
 ---
 
-*Always down to talk offensive sec, AI red-teaming, bug bounty and coordinated vulnerability disclosure.*
+*Pentest delivery · AppSec & source-code review · AI-assisted vulnerability research · coordinated disclosure. Open to offensive-security roles.*
