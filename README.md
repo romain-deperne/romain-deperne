@@ -8,6 +8,11 @@ I work on penetration testing and vulnerability research. I enjoy taking an odd 
 
 I use automation and language models to explore large codebases and keep research organized. They help me search and iterate; I remain responsible for scope, validation, impact assessment, and disclosure.
 
+## Projects
+
+- [Bounty Target Radar](https://github.com/romain-deperne/bounty-target-radar) — a Python CLI that collects public `security.txt` and disclosure-policy signals into SQLite, with explicit rate limits and a transparent score.
+- [Vulnerability research workflow](https://github.com/romain-deperne/vulnerability-research-workflow) — the evidence standard and working loop I use from scope confirmation to coordinated disclosure.
+
 ## Selected vulnerability research
 
 | Finding | Project | Class |
