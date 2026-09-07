@@ -6,8 +6,8 @@ I work on web and API pentesting, bug bounty, and vulnerability research. I also
 
 Here is some of my work:
 
-- Reported vulnerabilities in DbGate, Dagster, JupyterHub, KubeAI, Graphiti, Chamilo, Plunk, mcp-atlassian, and adx-mcp-server.
-- Published research covering code execution, SQL/KQL/Cypher injection, command injection, SSRF, arbitrary file read, email header injection, and CSRF.
+- Found and reported vulnerabilities in DbGate, Dagster, JupyterHub, KubeAI, Graphiti, Chamilo, Plunk, mcp-atlassian, and adx-mcp-server.
+- The public write-ups cover code execution, SQL/KQL/Cypher injection, command injection, SSRF, arbitrary file read, email header injection, and CSRF.
 - Built [Bounty Target Radar](https://github.com/romain-deperne/bounty-target-radar), a Python CLI for collecting and ranking public `security.txt` and disclosure-policy signals.
 - Published two articles in MISC magazine.
 - Represented France in cybersecurity at [WorldSkills Lyon 2024](https://worldskills.org/what/competitions/worldskills-lyon-2024/events/competitors/5624), after winning a silver medal at the [2023 French national competition](https://www.worldskills-france.org/actualites/47e-competition-nationale-des-metiers-les-resultats).
