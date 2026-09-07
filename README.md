@@ -1,43 +1,38 @@
 # Romain Deperne
 
-**Offensive security · Application security · Vulnerability research**
+Pentester and vulnerability researcher. OSCP · OSWA.
 
-OSCP · OSWA
+I work on web and API pentesting, bug bounty, and vulnerability research. I also build automation and LLM workflows around that work. Every finding listed below has a reproduced proof of concept.
 
-I work on penetration testing and vulnerability research. I enjoy taking an odd behavior or suspicious code path, reducing it to a reproducible proof of concept, checking the real impact, and giving maintainers a report they can act on.
+Here is some of my work:
 
-I use automation and language models to explore large codebases and keep research organized. They help me search and iterate; I remain responsible for scope, validation, impact assessment, and disclosure.
+- Reported vulnerabilities in DbGate, Dagster, JupyterHub, KubeAI, Graphiti, Chamilo, Plunk, mcp-atlassian, and adx-mcp-server.
+- Published research covering code execution, SQL/KQL/Cypher injection, command injection, SSRF, arbitrary file read, email header injection, and CSRF.
+- Built [Bounty Target Radar](https://github.com/romain-deperne/bounty-target-radar), a Python CLI for collecting and ranking public `security.txt` and disclosure-policy signals.
+- Published two articles in MISC magazine.
+- Represented France in cybersecurity at [WorldSkills Lyon 2024](https://worldskills.org/what/competitions/worldskills-lyon-2024/events/competitors/5624), after winning a silver medal at the [2023 French national competition](https://www.worldskills-france.org/actualites/47e-competition-nationale-des-metiers-les-resultats).
+- Cyber reserve officer with the French Gendarmerie.
 
-## Projects
+## Selected vulnerabilities
 
-- [Bounty Target Radar](https://github.com/romain-deperne/bounty-target-radar) — a Python CLI that collects public `security.txt` and disclosure-policy signals into SQLite, with explicit rate limits and a transparent score.
-- [Vulnerability research workflow](https://github.com/romain-deperne/vulnerability-research-workflow) — the evidence standard and working loop I use from scope confirmation to coordinated disclosure.
-
-## Selected vulnerability research
-
-| Finding | Project | Class |
+| Finding | Project | Impact |
 |---|---|---|
-| [CVE-2026-77262](https://github.com/advisories/GHSA-p6hp-93wp-fh6p) | mcp-atlassian | Arbitrary file read |
-| [CVE-2026-48017](https://github.com/romain-deperne/CVE-2026-48017) | DbGate | Code injection leading to RCE |
+| [CVE-2026-48017](https://github.com/romain-deperne/CVE-2026-48017) | DbGate | Remote code execution |
 | [CVE-2026-41490](https://github.com/romain-deperne/CVE-2026-41490) | Dagster | SQL injection |
+| [CVE-2026-77262](https://github.com/romain-deperne/CVE-2026-77262) | mcp-atlassian | Arbitrary file read |
 | [CVE-2026-34940](https://github.com/romain-deperne/CVE-2026-34940) | KubeAI | OS command injection |
 | [CVE-2026-32247](https://github.com/romain-deperne/CVE-2026-32247) | Graphiti | Cypher injection |
-| [CVE-2026-40864](https://github.com/romain-deperne/CVE-2026-40864) | JupyterHub | Cross-site request forgery |
+| [CVE-2026-40864](https://github.com/romain-deperne/CVE-2026-40864) | JupyterHub | CSRF |
 
-[More GitHub advisories that credit my work](https://github.com/advisories?query=credit%3Aromain-deperne)
+[More advisories crediting my work](https://github.com/advisories?query=credit%3Aromain-deperne)
 
 ## Publications
 
 - [React2Shell: CVE-2025-55182, autopsy of a zero-click RCE and detection/mitigation strategies](https://connect.ed-diamond.com/misc/misc-144/react2shell-cve-2025-55182-autopsie-d-une-rce-zero-click-et-strategies-de-detection-et-de-mitigation), MISC no. 144
 - [Understanding four CUPS vulnerabilities](https://connect.ed-diamond.com/misc/misc-138), MISC no. 138, with Nicolas Vieux
 
-## Background
+## Links
 
-- Represented France in cybersecurity at [WorldSkills Lyon 2024](https://worldskills.org/what/competitions/worldskills-lyon-2024/events/competitors/5624)
-- Silver medal in cybersecurity at the [2023 French national WorldSkills competition](https://www.worldskills-france.org/actualites/47e-competition-nationale-des-metiers-les-resultats)
-- Cyber reserve officer with the French Gendarmerie
-
-## Contact
-
+- [Vulnerability research workflow](https://github.com/romain-deperne/vulnerability-research-workflow)
 - [LinkedIn](https://fr.linkedin.com/in/romain-deperne%F0%9F%9B%A1%EF%B8%8F-580920221)
-- [romaindep@protonmail.com](mailto:romaindep@protonmail.com)
+- [Email](mailto:romaindep@protonmail.com)
